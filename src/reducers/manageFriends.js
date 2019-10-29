@@ -9,8 +9,10 @@ export function manageFriends(state, action){
       case "REMOVE_FRIEND"
         friend: {
           id: " "
+        return {friends: [ ]}
+      default:
+        return state;
         }
-
       }
 
 
