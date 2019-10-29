@@ -4,7 +4,7 @@ export function manageFriends(state, action){
       friend: {
         name: " "
         hometown: " ",
-      //  id: 1
+        id: 1
         return {friends: [ ]}
 
       }
