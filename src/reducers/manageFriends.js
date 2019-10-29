@@ -6,6 +6,10 @@ export function manageFriends(state, action){
         hometown: " ",
         id: ""
         return {friends: [ ]}
+      case "REMOVE_FRIEND"
+        friend: {
+          id: " "
+        }
 
       }
 
