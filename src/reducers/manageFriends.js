@@ -6,7 +6,7 @@ export function manageFriends(state, action){
         hometown: " ",
       //  id: 1
         return {friends: [ ]}
-      
+
       }
 
 
